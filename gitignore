@@ -1,0 +1,41 @@
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+
+# --- Environment variables / secrets ---
+.env
+
+# --- Data files (uncomment if Client.csv / Record.csv are large or shouldn't be public) ---
+# telecom/*.csv
+
+# --- Model artifacts (if you export trained models later) ---
+*.pkl
+*.joblib
+*.model
+
+# --- Logs ---
+*.log
