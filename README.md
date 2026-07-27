@@ -87,7 +87,7 @@ MyDrive/
 ### 3. Point the notebook to your folder
 1. In the notebook, find the cell containing this line:
    ```python
-   PROJECT_DIR = Path("/content/drive/MyDrive/MyFile/")  # <-- EDIT ME IF NEEDED
+   PROJECT_DIR = Path("/content/drive/MyDrive/MyFolder/")  # <-- EDIT ME IF NEEDED
    ```
 2. Replace the path inside `Path("...")` with the actual path to the folder you created in Step 1
    (e.g. `/content/drive/MyDrive/<your-project-folder>`).
